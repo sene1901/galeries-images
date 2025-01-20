@@ -1,0 +1,41 @@
+body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+
+}
+section {
+    width: 100%;
+    height: 100vh;
+}
+section .titre{
+    text-align: center;
+    padding-top: 40px; 
+}
+section .titre {
+    font-size: 32px;
+    font-weight: bold;
+}
+section .titre p{
+    font-family: "Roboto", serif;
+    font-size: 28px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 250px;
+    grid-gap: 15px;
+}
+.container .items{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    /* background-repeat: no-repeat; */
+}
+.item1{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7), url("images/img1.jpeg"));
+       
+}
